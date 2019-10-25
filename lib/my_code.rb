@@ -9,7 +9,7 @@ def map(arr)
   new_arr
 end 
 
-def reduce(arr)
+def reduce(arr, starting_val = 0)
   total = 0
   i = 0 
   while i < arr.length do
