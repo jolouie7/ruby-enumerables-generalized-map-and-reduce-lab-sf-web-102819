@@ -10,7 +10,7 @@ def map(arr)
 end 
 
 def reduce(arr)
-  total = 0
-  yield(total, arr)
-  total
+  # total = 0
+  yield(0, arr)
+  # total
 end 
