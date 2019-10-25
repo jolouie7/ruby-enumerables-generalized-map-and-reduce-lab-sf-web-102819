@@ -8,3 +8,12 @@ def map(arr)
   end
   new_arr
 end 
+
+def reduce(arr)
+  i = 0 
+  while i < arr.length do 
+    yield(total = 0, arr[i])
+    i += 1
+  end 
+  total
+end 
