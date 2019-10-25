@@ -17,5 +17,4 @@ def reduce(arr, starting_val = 0)
     yield(starting_val, ele)
     i += 1
   end 
-  total
 end 
