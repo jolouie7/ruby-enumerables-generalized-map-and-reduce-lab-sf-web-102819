@@ -18,5 +18,5 @@ def reduce(arr, starting_val = 0)
     total += starting_val
     i += 1
   end
-  starting_val
+  total
 end 
