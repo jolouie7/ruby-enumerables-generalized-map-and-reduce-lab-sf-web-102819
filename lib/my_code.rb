@@ -11,7 +11,7 @@ def map(arr)
   new_arr
 end 
 
-def reduce(arr, starting_val = 0)
+def reduce(arr, starting_val = nil)
   # total = 0
   i = 0
   while i < arr.length do
