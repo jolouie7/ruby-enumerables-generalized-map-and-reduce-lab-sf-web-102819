@@ -21,5 +21,5 @@ def reduce(arr, starting_val = 0)
     total += num
     i += 1
   end
-  start
+  total
 end 
