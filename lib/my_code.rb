@@ -18,7 +18,7 @@ def reduce(arr, starting_val = 0)
     ele = arr[i]
     num = yield(starting_val, ele)
     binding.pry
-    total += starting_val
+    total += num
     i += 1
   end
   total
