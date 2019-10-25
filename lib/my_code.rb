@@ -12,14 +12,14 @@ def map(arr)
 end 
 
 def reduce(arr, starting_val = 0)
-  total = 0
+  # total = 0
   i = 0
   while i < arr.length do
     ele = arr[i]
-    num = yield(starting_val, ele)
+    starting_val = yield(starting_val, ele)
     binding.pry
-    total += num
+    # total += num
     i += 1
   end
-  total
+  starting_val
 end 
