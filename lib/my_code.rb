@@ -16,7 +16,7 @@ def reduce(arr, starting_val = 0)
   i = 0
   while i < arr.length do
     ele = arr[i]
-    p yield(starting_val, ele)
+    num = yield(starting_val, ele)
     binding.pry
     total += starting_val
     i += 1
